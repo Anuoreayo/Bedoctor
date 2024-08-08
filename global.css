@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.py{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ml{
+    margin-left: 20px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border-radius:16px ;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .flex{
+    display: block;
+   }
+}
